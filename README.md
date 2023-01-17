@@ -62,7 +62,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [VET_CLINIC] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> Describe the project in 1 or 2 sentences.
 
 **[VET_CLINIC]** is a...
 
@@ -70,7 +70,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+> Describe the tech stack and include only the relevant sections that apply to the project.
 
 <details>
   <summary>Client</summary>
@@ -224,9 +224,8 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- Adding React to make full Application
+- Adding Node to make full Application
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -281,7 +280,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
