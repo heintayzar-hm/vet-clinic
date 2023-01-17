@@ -99,9 +99,8 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- Can Add new animals to a clinc
+- Can SEARCH animals from the clinc
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
