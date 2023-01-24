@@ -1,0 +1,23 @@
+CREATE TABLE patients (
+    id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    date_of_birth DATE NOT NULL
+);
+
+CREATE TABLE medical_histories (
+    id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    admitted_at TIMESTAMP NOT NULL,
+    patient_id INTEGER REFERENCES patients(id) ON DELETE CASCADE ON UPDATE CASCADE,
+    status VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE treatments (
+    id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    type VARCHAR(255) NOT NULL,
+    name VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE medical_histories_treatments (
+    medical_histories_id INTEGER REFERENCES medical_histories(id) ON DELETE CASCADE ON UPDATE CASCADE,
+    treatments_id INTEGER REFERENCES treatments(id) ON DELETE CASCADE ON UPDATE CASCADE
+);
