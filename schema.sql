@@ -63,3 +63,15 @@ CREATE TABLE visits (
     vet_id INTEGER REFERENCES vets(id) ON DELETE CASCADE ON UPDATE CASCADE,
     visit_date DATE NOT NULL
 );
+
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+-- create index on visits(animal_id) in ascending order;
+CREATE INDEX animal_id_index ON visits (animal_id);
+
+-- create index on visits(vet_id) in ascending order;
+CREATE INDEX vet_id_index ON visits (vet_id);
+
+-- create index on visits(email) in ascending order;
+CREATE INDEX owners_email_index ON owners(email);
